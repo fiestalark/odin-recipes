@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+    margin: 10vh 0;
+    font-size: 50px;
+}
+
+.recipes-list {
+    margin: 0 30vw;
+    font-size: 30px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+li {
+    margin-bottom: 1vh;
+}
+.container {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+img {
+    border-radius: 40px;
+    width: 100%;
+    height: auto;
+}
+h3, h4, p, ul, ol {
+    margin-left: 5vw;
+}
+
+h3, h4 {
+    margin: 3vh;
+}
