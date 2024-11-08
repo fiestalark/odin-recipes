@@ -1,21 +1,27 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 243, 226);
 }
 
 h1 {
     text-align: center;
-    margin: 10vh 0;
+    margin: 8vh 0 0;
     font-size: 50px;
 }
-
+.main-title {
+    margin-bottom: 5vh;
+}
 .recipes-list {
     margin: 0 30vw;
     font-size: 30px;
+    font-weight: bolder;
     list-style-type: none;
+}
+.recipes-list li {
+    margin-bottom: 3vh;
 }
 a {
     text-decoration: none;
@@ -27,6 +33,7 @@ li {
     display: block;
     width: 50%;
     margin: 0 auto;
+    padding: 4vh 0;
 }
 img {
     border-radius: 40px;
